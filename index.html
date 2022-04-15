@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <title>Multiverso Comics</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,"/>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+  
+  </head>
+  
+  <body>
+    <div class="d-flex flex-column wrapper">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
+      <div class="container">
+        <a class="navbar-brand" href=""><strong>Multiverso Comics</strong></a>
+        <button
+          class="navbar-togller"
+          type="button"
+          data-bs-toggle="collapse"
+          data-target=".navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse ">
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Início</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white"
+                >Politicas de privacidade</a>
+            </li>
+          </ul>
+        
+        <div class="align-self-end">
+          <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Quero me Cadastrar</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white">Entrar</a>
+          </li>
+              <li class="nav-item">
+                <span class="badge rouded-pill bg-light text-danger position-absolute ms-4 mt-0" title="produtos no carrinho"><small>0</small></span>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi" width="24" height="24" fill="currentColor">
+                    <use xlink: href="\bs.svg#cart3"/>
+                  </svg>
+                </a>
+                </li
+               
+            ></div>
+          </div>
+      </div>
+    </nav>
+    
+      <div class="container">
+    <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner".item>
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/image/slides/DC_multiverso_comics.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/image/slides/fazer_edição.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-50" src="image/slides/Marvel_multiverso_comics.jpg">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain"
+      data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" ></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMain"
+      data-bs-slide="next">
+        <span class="carousel-control-next-icon" ></span>
+        <span class="visually-hidden">próximo</span>
+      </button>
+    </div>
+    <hr class="mb-3">
+  </div>
+  
+  
+    <main class="flex-fill">
+      <div class="container">
+        <div class="row">
+          <div class="col-12  col-md-5">
+            <form class = "justify-content-center justify-content-md-start mb-3 mb-md-0" action="">
+
+              <div class="input-group mb-3 input-group">
+                <input type="text" class="text" placeholder="Digite aqui o produto">
+                <div class="input-group-append">
+                  <button class="btn btn-danger" type="button">Pesquisar</button>
+                </div>
+              </form>
+              </div>
+        </div>
+            <div class="col-12 col-md-7">
+              <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                <form class="d-inline-block">
+                  <select class="form-select form-select-sm">
+                    <option>ordenar pelo nome</option>
+                    <option>ordenar pelo menor preço</option>
+                    <option>ordenar pelo maior preço</option>
+                  </select>
+                </form>
+                <nav class="d-inline-block me-3">
+                  <ul class="pagination pagination-sm my-0">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          
+        </div>
+        
+      
+      <hr mt-3> 
+
+     <div class="row g-3">
+       <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-x1-2">
+        <div class="card text-center bg-ligth">
+         <a href="#" class="position-absolute right-0 p-2 text-danger">
+           <svg class="bi" width="24px" heigth="24px" fill="currentCollor">
+             <use xlink:href="/bi.svg#suit-heart"/>
+           </svg>
+         </a>
+          <img class="card-img-top" src="./image/produtos/Blusa1.webp" >
+          <div class="card-body">
+            <div class="card-title">Blusa de frio do Naruto</div>
+            <h5 class="card-text">Blusa de frio do Naruto apenas teste</h5>
+          </div>
+          <div class="card-footer"><a href="carrinho.html" class=" btn btn-danger mt-2 d-block">Adicionar ao carrinho</a>
+          </div>
+        </div>
+       </div>
+     </div>
+     <hr mt-3> 
+     <div class="row pb-4">
+
+     </div>
+     <div col-12>
+      <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+        <form class="d-inline-block">
+          <select class="form-select form-select-sm">
+            <option>ordenar pelo nome</option>
+            <option>ordenar pelo menor preço</option>
+            <option>ordenar pelo maior preço</option>
+          </select>
+        </form>
+        <nav class="d-inline-block me-3">
+          <ul class="pagination pagination-sm my-0">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+     </div>
+    </main>
+    
+    <footer class="border-top fixed-bottom text-muted bg-ligth">
+      <div class="container">
+        <div class="row padding py-3">
+          <div class="col-12 col-md-4 text-center text-md-left">
+            &copy; 2022 - Multiverso Comics Ltda ME <br> Rua comica 171, Teste-BR CNPJ 21-458-0001/56</b>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <a href="#" class="text-decoration-none text-dark">Termos de Uso</a><br>
+            <a href="#" class="text-decoration-none text-dark">Trocas e devoluções</a><br>
+            <a href="quem somos.html" class="text-decoration-none text-dark">Quem somos</a><br>
+            <a href="#" class="text-decoration-none text-dark"> trocas e devoluções</a>
+          </div>
+          <div class="col-4 text-center">
+            <a href="#" class="text-decoration-none text-dark">Contato Pelo Site</a><br>
+            <a href="mailto:email@dominio.com" class="text-decoration-none text dark">email@domínio.com</a><br>
+            <a href="phone:11995588888" class="text-decoration-none text dark">Telefone: (11) 995588888</a><br>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+    
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

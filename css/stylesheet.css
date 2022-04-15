@@ -1,0 +1,14 @@
+body {
+min-width: 372px;
+}
+.wrapper{
+    min-height: 200vh;
+}
+.carousel-inner > .carousel-item active > img {
+    width: 700px;
+    height: 400px; 
+  }
+.carousel-inner > .carousel-item > img {
+    width: 700px;
+    height: 400px; 
+  }
